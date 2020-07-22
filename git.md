@@ -38,7 +38,15 @@ $ git clone git@github.com:michaelliao/gitskills.git
 1. git rm xxxx   
 
 2. git commit -m "xxxx"
+
 3. git push 
+
+   ### 删除远程库文件夹
+
+   1. git pull origin master   //将远程仓库里面的项目拉下来
+   2. git rm -r --cached target  //删除target文件夹
+   3. git commit -m "xxx"
+   4. git push -u origin master
 
 误删的文件恢复到最新版本
 $ git checkout -- test.txt
