@@ -12,6 +12,14 @@
 
 4. git commit -m "xxxxx"
 
+## 添加
+
+```
+git add xxx 	// 指定文件
+git add xxx/	//指定文件夹
+git add -A		// 添加所以变化
+```
+
 
 
 
@@ -54,12 +62,6 @@ $ git checkout -- test.txt
 git add -A
 git commit -m "LJ commit"
 git clone -b dev https://gitee.com/zll_programmer/qms.git		//克隆分支git clone -b +分支 + 地址
-
-
-
-
-
-## 查看本地分支情况
 
 
 
