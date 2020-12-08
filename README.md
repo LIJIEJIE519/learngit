@@ -30,6 +30,7 @@ git add -A		// 添加所以变化
 	git add README.md
 	git commit -m "first commit"
 	git remote add learngit https://github.com/LIJIEJIE519/learngit.git	// 本地库连接远程库
+	git branch -M main
 	git push -u learngit master
 
 
