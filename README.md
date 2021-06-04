@@ -193,5 +193,9 @@ git push origin :[branch name]
 git push origin :save
 ```
 
+### 设置上游分支
+```
+git push --set-upstream origin wangxiao
+```
 
 
