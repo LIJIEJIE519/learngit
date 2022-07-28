@@ -198,4 +198,9 @@ git push origin :save
 git push --set-upstream origin wangxiao
 ```
 
-
+### 配置
+```
+git config --list
+git config --global user.name  "username"  
+git config --global user.email  "email"
+```
